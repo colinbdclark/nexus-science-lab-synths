@@ -3,10 +3,6 @@
 fluid.defaults("floe.scienceLab.phSynth", {
     gradeNames: "flock.synth",
 
-    components: {
-        enviro: "{phSonification}.enviro"
-    },
-
     synthDef: {
         id: "sum",
         mul: 1,

@@ -1,13 +1,9 @@
 "use strict";
 
 fluid.defaults("floe.scienceLab.phSonification", {
-    gradeNames: "fluid.component",
+    gradeNames: "floe.scienceLab.sonification",
 
     components: {
-        enviro: {
-            type: "flock.enviro"
-        },
-
         synth: {
             type: "floe.scienceLab.phSynth"
         },

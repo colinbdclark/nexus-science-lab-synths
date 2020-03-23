@@ -1,19 +1,11 @@
 "use strict";
 
 fluid.defaults("floe.scienceLab.temperatureSonification", {
-    gradeNames: "fluid.component",
+    gradeNames: "floe.scienceLab.sonification",
 
     components: {
-        enviro: {
-            type: "flock.enviro"
-        },
-
         band: {
             type: "floe.scienceLab.temperatureBand"
         }
-    },
-
-    listeners: {
-        "onCreate.startSynths": "{band}.play()"
     }
 });
